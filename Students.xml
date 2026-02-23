@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Students>
+
+    <Student RegistrationNumber="20240001">
+        <FirstName>Amer</FirstName>
+        <FamilyName>Ouaghed</FamilyName>
+        <Age>21</Age>
+
+        <Address>
+            <Number>99</Number>
+            <City>el oued</City>
+            <PostalCode>39000</PostalCode>
+        </Address>
+
+        <Level>3L</Level>
+        <Speciality>ComputerScience</Speciality>
+        <Average>19.99</Average>
+    </Student>
+
+    <Student RegistrationNumber="20250002">
+        <FirstName>Ahmed </FirstName>
+        <FamilyName>Mahmoudi</FamilyName>
+        <Age>22</Age>
+
+        <Address>
+            <Number>45</Number>
+            <City>Algiers</City>
+            <PostalCode>16012</PostalCode>
+        </Address>
+
+        <Level>1M</Level>
+        <Speciality>Mathematics</Speciality>
+        <Average>16.99</Average>
+    </Student>
+
+    <Student RegistrationNumber="20260003">
+        <FirstName>Yacine</FirstName>
+        <FamilyName>Makhlofi</FamilyName>
+        <Age>19</Age>
+
+        <Level>1L</Level>
+        <Speciality>Physics</Speciality>
+        <Average>12.99</Average>
+    </Student>
+
+</Students>

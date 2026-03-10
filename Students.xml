@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE Students SYSTEM "Students.dtd">
 <Students>
 
     <Student RegistrationNumber="20240001">
@@ -45,3 +45,4 @@
     </Student>
 
 </Students>
+

@@ -1,0 +1,22 @@
+<!DOCTYPE Students [
+    <!ELEMENT Students (Student+)>
+    
+    <!ELEMENT Student (FirstName, FamilyName, Age, Address?, Level, Speciality, Average)>
+    <!ATTLIST Student RegistrationNumber CDATA #REQUIRED>
+    
+    <!ELEMENT FirstName (#PCDATA)>
+    <!ELEMENT FamilyName (#PCDATA)>
+    <!ELEMENT Age (#PCDATA)>
+    <!ELEMENT Level (#PCDATA)>
+    <!ELEMENT Speciality (#PCDATA)>
+    <!ELEMENT Average (#PCDATA)>
+    
+    <!ELEMENT Address (Number, City, PostalCode)>
+    <!ELEMENT Number (#PCDATA)>
+    <!ELEMENT City (#PCDATA)>
+    <!ELEMENT PostalCode (#PCDATA)>
+    
+    
+    <!ENTITY % levels "1L | 2L | 3L | 1M | 2M">
+    <!ENTITY % specialities "ComputerScience | Physics | Chemistry | Mathematics">
+]>

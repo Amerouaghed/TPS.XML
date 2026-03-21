@@ -2,7 +2,7 @@
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-    <!-- Root -->
+   
     <xs:element name="Students">
         <xs:complexType>
             <xs:sequence>
@@ -20,7 +20,7 @@
                                 </xs:simpleType>
                             </xs:element>
 
-                            <!-- FamilyName -->
+                    
                             <xs:element name="FamilyName">
                                 <xs:simpleType>
                                     <xs:restriction base="xs:string">
@@ -29,7 +29,7 @@
                                 </xs:simpleType>
                             </xs:element>
 
-                            <!-- Age -->
+                     
                             <xs:element name="Age">
                                 <xs:simpleType>
                                     <xs:restriction base="xs:integer">
@@ -39,7 +39,7 @@
                                 </xs:simpleType>
                             </xs:element>
 
-                            <!-- Address (اختياري) -->
+                     
                             <xs:element name="Address" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
@@ -73,7 +73,6 @@
                                 </xs:complexType>
                             </xs:element>
 
-                            <!-- Level -->
                             <xs:element name="Level">
                                 <xs:simpleType>
                                     <xs:restriction base="xs:string">
@@ -86,7 +85,7 @@
                                 </xs:simpleType>
                             </xs:element>
 
-                            <!-- Speciality -->
+                     
                             <xs:element name="Speciality">
                                 <xs:simpleType>
                                     <xs:restriction base="xs:string">
@@ -98,7 +97,7 @@
                                 </xs:simpleType>
                             </xs:element>
 
-                            <!-- Average -->
+                        
                             <xs:element name="Average" default="0.00">
                                 <xs:simpleType>
                                     <xs:restriction base="xs:decimal">
@@ -110,7 +109,7 @@
 
                         </xs:sequence>
 
-                        <!-- Attribute RegistrationNumber -->
+             
                         <xs:attribute name="RegistrationNumber" use="required">
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
